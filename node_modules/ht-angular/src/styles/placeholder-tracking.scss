@@ -1,0 +1,48 @@
+@import "bulma";
+
+.text-caption {
+  @extend .is-uppercase;
+  @extend .has-text-weight-semibold;
+  font-size: $size-caption-text;
+  letter-spacing: $family-caption-letter-spacing;
+}
+
+.text-title {
+  font-size: $size-title-text;
+  @extend .has-text-weight-semibold;
+}
+
+.text-info {
+  font-size: $size-info-text;
+  @extend .has-text-weight-semibold;
+}
+
+.is-tracking-card {
+  @extend .card;
+  background: $card-background;
+  border-top-left-radius: $card-radius;
+  border-top-right-radius: $card-radius;
+  box-shadow : $card-shadow;
+  -webkit-box-shadow: $card-shadow;
+}
+
+.is-padding-normal {
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.divider {
+  border: 1px solid rgba( $secondary-text-color, 0.3 );
+}
+
+.has-color-secondary-text {
+  color : $secondary-text-color;
+}
+
+.has-color-title-text {
+  color : $title-text-color;
+}
+
+.has-color-accent {
+  color : $accent-color;
+}
+
